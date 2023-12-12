@@ -80,15 +80,26 @@ div.login , div.register{
 }
 input{
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   width: 100%;
   padding:  10px ;
   border: 2px solid #ddd;
   border-radius: 10px;
+
 }
 
 button{
-  width: 100%;
+  font-size: 1rem;
+  font-weight: 800;
+  width: 40%;
   display: block;
-  padding: 10px;
+  padding: 10px 0;
+  background-color: #555;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+div.login h1,div.register h1{
+  text-align: center;
 }
