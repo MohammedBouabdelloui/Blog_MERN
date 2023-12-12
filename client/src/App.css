@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   color : #222
 }
@@ -8,7 +11,7 @@ img{
 
 main{
   padding: 10px;
-  max-width: 700px;
+  /* max-width: 700px; */
   margin: 0 auto;
 }
 
@@ -46,7 +49,7 @@ div.post{
 }
 div.post div.texts h2{
   margin: 0px;
-  fornt-size:1.5rem;
+  font-size:1.5rem;
 }
 
 div.post p.info{
@@ -65,4 +68,27 @@ div.post p.info a.author{
 div.post p.sumary{
   margin: 10px 0;
   line-height: 1.4rem;
+}
+
+nav .homme{
+  padding-right: 4rem;
+}
+
+div.login , div.register{
+  max-width: 400px;
+  margin : 0 auto;
+}
+input{
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding:  10px ;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+button{
+  width: 100%;
+  display: block;
+  padding: 10px;
 }
