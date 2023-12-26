@@ -6,7 +6,7 @@ const Post=()=>{
           <img src={postImage}></img>
         </div>
         <div className="texts">
-
+          
           <h2>Filmer banque d'images libres de droit</h2>
           <p className="info">
             <a className="author">mohammed simo</a>
