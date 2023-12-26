@@ -4,7 +4,8 @@ import Homme from "../pages/home";
 import Login from "../pages/login";
 import Register from "../pages/register";
 
-
+export const Route_Logine = "/login";
+export const Route_Register = '/register';
 
 export const router = createBrowserRouter (
     [
@@ -17,12 +18,12 @@ export const router = createBrowserRouter (
                 },
 
                 {
-                    path : '/login',
+                    path : Route_Logine,
                     element : <Login />
                 },
                 
                 {
-                    path : '/register',
+                    path : Route_Register ,
                     element : <Register />
                 }
             ]

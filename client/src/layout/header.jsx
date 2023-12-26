@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
+import { Route_Logine, Route_Register } from "../route"
 
 const Header =()=>{
     return(<>
@@ -7,8 +8,8 @@ const Header =()=>{
         
           <nav>
             <Link to='/' className="homme">Homme</Link>
-            <Link to='/login' >login</Link>
-            <Link to='/register' >register</Link>
+            <Link to={Route_Logine} >login</Link>
+            <Link to={Route_Register} >register</Link>
           </nav>
         </header>
         <div className="contente">
